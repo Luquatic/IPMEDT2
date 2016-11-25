@@ -1,0 +1,156 @@
+@font-face{
+    font-family: 'avant';
+    src: url('../font/AvantGardeGothicMedium.otf');
+}
+
+html, body {
+    font-family: 'avant';
+    width: 100%;
+    height: 100%;
+	
+}
+
+body {
+
+
+}
+#backgroundImage{
+	width:100%;
+	height:100%;
+}
+
+
+
+#homePage h1,#homePage h2{
+	color:white;
+}
+
+.div{
+	width:645px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.textRed{
+	color: #CC1A31;
+}
+
+.text{
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.textFirst{
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.textSecond{
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 12vh;
+}
+
+#logoNOS{
+    position: absolute;
+}
+
+.scrolldown {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    -webkit-animation:bounce 2s infinite;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media only screen and (max-height: 450px) {
+    .sidenav a {font-size: 18px;}
+}
+
+@media only screen and (max-width: 393px) {
+    .textFirst {
+        font-size: 2vh;
+    }
+
+    .textSecond {
+        font-size: 3vh;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    #logoNOS {
+        top: 20px;
+        left: 7%;
+        height: 19px;
+    }
+
+    .text {
+        bottom: 50%;
+    }
+
+    .textFirst {
+        font-size: 5vh;
+        top: 10px;
+    }
+
+    .textSecond {
+     font-size: 5.9vh;
+    }
+
+    #btnDown {
+        height: 40px;
+    }
+
+    .scrolldown {
+        position: absolute;
+        bottom: 15%;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+@media only screen and (min-width: 767px) {
+    #logoNOS {
+        top: 28px;
+        left: 10px;
+        height: 28px;
+    }
+    .text {
+        bottom: 40%;
+    }
+    .textFirst {
+        font-size: 5.5vh;
+        top: 10px;
+    }
+    .textSecond {
+        font-size: 7.9vh;
+    }
+    #btnDown {
+        height: 50px;
+    }
+
+    .scrolldown {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .textFirst {
+        top: 20px;
+        font-size: 8vh;
+    }
+    .textSecond {
+        font-size: 12vh;
+    }
+}

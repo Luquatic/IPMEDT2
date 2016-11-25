@@ -1,0 +1,60 @@
+#playButton
+{
+  position: absolute;
+  display: block;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%,-50%);
+}
+
+#pauseButton
+{
+  position: absolute;
+  /*display: block;*/
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+#myVideo
+{
+  top: 55%;
+}
+
+video {
+  position: absolute;
+  width:100%;
+  left: 0;
+  top: 80%;
+  transform: translateY(-50%);
+}
+/*
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/thumbnail.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+*/
